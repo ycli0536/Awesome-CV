@@ -8,16 +8,30 @@
 *.out
 *.toc
 
+## latexmk
+*.fdb_latexmk
+*.xdv
+
+## synctex
+*.synctex.gz
+
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
+*.run.xml
 
 ### Editor ###
 ## Vim & Emacs temp files:
 .*sw[op]
 *~
 
+## Bibliography
+*.bbl
+*.bcf
+*.blg
+
 ### Mac OS X ###
 ## Mac OS X metadata files:
 *.DS_Store
 
+## See more at https://tex.stackexchange.com/questions/7770/file-extensions-related-to-latex-etc/654349#654349?newreg=8f4a6169a06043c69eed3db99878fe53

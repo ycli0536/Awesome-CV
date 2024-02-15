@@ -21,12 +21,12 @@
 \documentclass[11pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.75cm, top=2cm, right=1.75cm, bottom=2cm, footskip=.5cm}
 
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{darktext}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -44,23 +44,25 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+% Show your publications
+\addbibresource{ref.bib}
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-% \photo{./examples/profile.png}
-\name{Claud D.}{Park}
-\position{Site Reliability Engineer{\enskip\cdotp\enskip}Software Architect}
-\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+% \photo[circle,noedge,left]{../examples/IMG_6525}
+\name{Yinchu}{Li}
+\position{PhD Candidate{\enskip\cdotp\enskip}Marine Geophysics}
+\address{School of Earth and Atmospheric Sciences, Georgia Institute of Technology Atlanta, GA, 30318, USA}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-%\dateofbirth{January 1st, 1970}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\mobile{(+1) 470-775-6062}
+\email{yli0536@gatech.edu}
+% \dateofbirth{January 1st, 1970}
+% \homepage{www.posquit0.com}
+\github{yli0536}
+\linkedin{yli0536}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -71,11 +73,10 @@
 % \hackerrank{hackerrank-id}
 % \googlescholar{googlescholar-id}{name-to-display}
 %% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
+\googlescholar{s11yQJAAAAAJ}{}
 % \extrainfo{extra information}
 
-\quote{``Be the change that you want to see in the world."}
-
+% \quote{``Be the change that you want to see in the world."}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -88,7 +89,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {Yinchu Li~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
@@ -96,15 +97,19 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
+\input{cv/summary.tex}
 \input{cv/education.tex}
-\input{cv/skills.tex}
+\input{cv/field_experience.tex}
 \input{cv/experience.tex}
-\input{cv/extracurricular.tex}
+\input{cv/teaching_experience.tex}
+\input{cv/Publications.tex}
 \input{cv/honors.tex}
-\input{cv/certificates.tex}
+\input{cv/conference_abstract.tex}
 \input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
+\input{cv/skills.tex}
+\input{cv/professional_society.tex}
+\input{cv/referees.tex}
+% \input{cv/committees.tex}
 
 
 %-------------------------------------------------------------------------------
