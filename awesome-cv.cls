@@ -723,7 +723,7 @@ maxbibnames=99
   \vspace{-2.0mm}
   \setlength\tabcolsep{2pt}
   \setlength{\extrarowheight}{2pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 5cm} R{5cm}}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 6cm} R{6cm}}
     \ifempty{#2#3}
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
